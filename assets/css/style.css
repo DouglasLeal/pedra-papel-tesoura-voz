@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+body{
+    font-family: 'Luckiest Guy', cursive;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+    padding: 75px 0;
+    font-size: 2rem;
+}
+
+.msg-warning{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 100px;
+    color: tomato;
+}
+
+.msg-result{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+}
+
+.msg-result-won{
+    color: cornflowerblue;
+}
+
+.msg-result-lost{
+    color: tomato;
+}
+
+.container{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box p{
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.box-option{
+    width: 110px;
+    height: 129px;
+    border: 1px solid black;
+    background-position: 220px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none{
+    display: none;
+}
+
+.v-hidden{
+    visibility: hidden;
+}
